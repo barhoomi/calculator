@@ -1,0 +1,110 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.calc-screen{
+    margin-top: 8vh;
+    display:flex;
+    justify-content: center;
+    font-size:4.5em;
+    text-align: right;
+    font-weight: light;
+    color:white;
+}
+.calc-display{
+    width:40%;
+    height: 130px;
+    background-color:black;
+}
+
+
+.calc-row{
+    display:flex;
+    justify-content: center;
+    align-content: stretch;
+}
+/* h */
+.calc-button{
+    background-color: rgb(200, 200, 200);
+    border-radius: 0;
+    border:none;
+    width:10%;
+    height:110px;
+    font-size:3em;
+    color:rgb(30, 30, 30);
+    cursor:pointer;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px;
+}
+.calc-button:hover{
+    background-color:rgb(210,210,210);
+    color:rgb(70, 70, 70);
+}
+.calc-button:active{
+    background-color:rgb(190,190,190);
+    color:rgb(20, 20, 20);
+}
+
+
+
+.calc-row :last-child{
+    background-color: rgb(206, 134, 0);
+    color:rgb(226, 226, 226);
+    border-right:none;
+}
+.calc-row :last-child:hover{
+    background-color: rgb(216, 141, 3);
+    color:white;
+}
+.calc-row :last-child:active{
+    background-color: rgb(182, 118, 0);
+    color:rgb(175, 175, 175);
+}
+#equals{
+    border-bottom: none;
+}
+
+
+
+.calc-double{
+    background-color: rgb(201, 201, 201);
+    border-radius: 0;
+    border:none;
+    width: 20%;
+    font-size:3em;
+    cursor:pointer;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px;
+}
+.calc-double:hover{
+    background-color:rgb(210,210,210);
+    color:rgb(70, 70, 70);
+}
+.calc-double:active{
+    background-color:rgb(190,190,190);
+    color:rgb(20, 20, 20);
+}
+
+
+.calc-triple{
+    background-color: rgb(201, 201, 201);
+    border-radius: 0;
+    border:none;
+    width: 30%;
+    font-size:3em;
+    cursor:pointer;
+    border-right: black solid 2px;
+}
+.calc-triple:hover{
+    background-color:rgb(210,210,210);
+    color:rgb(70, 70, 70);
+}
+.calc-triple:active{
+    background-color:rgb(190,190,190);
+    color:rgb(20, 20, 20);
+}
+
